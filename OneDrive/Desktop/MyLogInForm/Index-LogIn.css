@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*background and centering*/
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*login container*/
+
+.Login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Login-Box {
+   background-color: white;
+   padding: 30px;
+   width: 100%;
+   max-width: 400px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+ /*the different input fields*/
+
+.Input-Group {
+    margin-bottom: 20px;
+}
+
+.Input-Group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.Input-Group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+
+/*the actual LigIn-Button*/
+
+.Login-Btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Login-Btn:hover {
+    background-color: #0056b3;
+}
+
+  /* Forgot Password Link */
+.Forgot-Password {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Forgot-Password a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.Forgot-Password a:hover {
+    text-decoration: underline;
+}
